@@ -1,0 +1,60 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.nav {
+  width: 100%;
+  max-width: 28rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 4rem;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #6366f1, #c084fc, #f472b6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0 0 0.75rem;
+  letter-spacing: -0.025em;
+}
+
+.description {
+  font-size: 1rem;
+  color: #9ca3af;
+  max-width: 28rem;
+  line-height: 1.6;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 2rem 0;
+  font-size: 0.75rem;
+  color: #4b5563;
+}

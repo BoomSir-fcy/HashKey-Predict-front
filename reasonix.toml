@@ -1,0 +1,2 @@
+[permissions]
+allow = ["Bash(cd /Users/boom/Documents/work/PM-front && echo \"y\" | npm create vite@latest . -- --template react-ts --force 2>&1)", "Edit"]

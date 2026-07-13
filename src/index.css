@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Tailwind CSS v4 自定义主题（可选配置） */
+@theme {
+  --color-primary: #6366f1;
+  --color-primary-hover: #4f46e5;
+  --color-accent: #c084fc;
+  --color-surface: #0f0f13;
+  --color-surface-light: #1a1b23;
+  --color-border: #2e303a;
+  --color-text: #9ca3af;
+  --color-text-heading: #f3f4f6;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
